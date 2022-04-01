@@ -1,0 +1,61 @@
+main {
+  display: flex;
+  justify-content: center;
+  row-gap: 30px;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: azure;
+}
+
+main h1 {
+  width: 100%;
+  text-align: center;
+  color: rgb(236, 76, 76);
+  letter-spacing: 1px;
+  text-shadow: 1px 2px rgb(167, 104, 104);
+
+}
+
+.folder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  background-color: white;
+  border-radius: 15px;
+  padding-bottom: 15px;
+  box-shadow: 0 0.3em 0.5em -0.1em #013530;
+}
+
+.folder img {
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+}
+
+.folder h2 {
+  font-family: cursive;
+  color: #013530;
+  text-shadow: 1px 1px #64c2b8;
+}
+
+.folder button {
+  width: 70%;
+  align-self: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(236, 76, 76);
+  font-weight: 600;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.folder button:hover {
+  cursor: pointer;
+  transform: translateY(-0.1em);
+  box-shadow: 0 0.3em 0.5em -0.1em #013530;
+  transition: all 0.3s ease;
+}

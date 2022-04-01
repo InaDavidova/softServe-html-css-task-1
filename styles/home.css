@@ -1,6 +1,6 @@
 main {
     background-color: azure;
-    height: 80vh;
+    min-height: 80vh;
   }
 
   h1{
@@ -61,7 +61,7 @@ main {
   }
   
   img {
-    width: 30%;
+    height: 75vh;
     border-bottom: 1px solid #013530;
     box-shadow: -3em 1em 2em #013530;
   }
