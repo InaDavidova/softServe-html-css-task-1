@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/feedbackForm.css" />
+    <script src="/src/form.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Travel memories</h1>
+        <ul>
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./foleders.html">Folders</a></li>
+          <li><a href="./feedbackForm.html">Feedback Form</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Feedback Form</h1>
+      <form>
+        <label for="name"> Name *</label>
+        <input name="name" id="name" placeholder="Please enter your name ..." />
+
+        <label for="email"> Email *</label>
+        <input name="email" id="email" placeholder="Please enter your email ..." />
+
+        <label for="comments">Comments *</label>
+        <textarea name="comments" id="comments" placeholder="Please add here your comments ..."></textarea>
+
+        <p> All fields marked with an asterisk (<span>*</span>) are required </p>
+        <button>Submit</button>
+      </form>
+
+      <div id="notificationDiv">
+        <div id="notificationDivContent">
+          <p>You have successfully sent you feedback! Thank you for your time!</p>
+          <button>OK</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>© Created by Ina Davidova for SoftServe :)</p>
+    </footer>
+  </body>
+</html>
