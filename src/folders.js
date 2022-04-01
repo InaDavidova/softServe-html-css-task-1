@@ -27,7 +27,7 @@ function onClick(e) {
         index--;
       }
 
-      imageElement.src = `../images/tenerife/${index}.jpg`;
+      imageElement.src = `../images/${h2.id}/${index}.jpg`;
 
     } else {
       let destination = e.target.parentElement.id;

@@ -35,10 +35,14 @@ main h1 {
   border-radius: 15px 15px 0 0;
 }
 
-.folder h2 {
+.folder h2, p {
   font-family: cursive;
   color: #013530;
   text-shadow: 1px 1px #64c2b8;
+}
+
+.folder p {
+  margin-top: 0;
 }
 
 .folder button {
