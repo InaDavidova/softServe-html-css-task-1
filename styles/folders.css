@@ -57,7 +57,9 @@ main h1 {
   letter-spacing: 1px;
 }
 
-.folder button:hover {
+.folder button:hover,
+#buttons button:hover,
+#close:hover {
   cursor: pointer;
   transform: translateY(-0.1em);
   box-shadow: 0 0.3em 0.5em -0.1em #013530;
