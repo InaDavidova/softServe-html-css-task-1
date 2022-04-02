@@ -50,7 +50,7 @@ nav a:hover {
   background-color: azure;
   color: #013530;
   border-radius: 7px;
-  transition: 500ms;
+  transition: 300ms;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   transform: translate(0, 13px);
@@ -62,6 +62,8 @@ footer {
   letter-spacing: 1px;
   display: flex;
   align-items: center;
-  color: azure;
+  /* color: azure; */
   padding-left: 15px;
+  color: #013530;
+  text-shadow: -1px 2px #64c2b8;
 }
