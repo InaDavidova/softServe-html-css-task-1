@@ -52,7 +52,7 @@ main {
     transform: translate(2px, -7px);
     transition: all 0.5s ease;
     box-shadow: 0 0.5em 0.8em -0.2em #013530;
-}
+  }
   
   #introDiv #btnsDiv {
     display: flex;

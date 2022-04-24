@@ -56,6 +56,11 @@ nav a:hover {
   transform: translate(0, 13px);
 }
 
+.dark-nav:hover {
+  background-color: black;
+  color: white;
+}
+
 footer {
   height: 10vh;
   background-color: #013530;
@@ -90,4 +95,18 @@ footer {
 
 .mode button:hover {
   cursor: pointer;
+}
+
+.dark {
+  background-color: rgb(0, 0, 0);
+}
+
+.dark-p {
+  color: #64c2b8;
+  text-shadow: none;
+}
+
+.dark-mode-btn {
+  background-color: #013530;
+  text-shadow: -1px 2px #64c2b8;
 }
