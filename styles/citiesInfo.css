@@ -3,6 +3,8 @@ main {
   flex-flow: column;
   row-gap: 50px;
   align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: azure;
 }
 
@@ -19,12 +21,15 @@ main h1 {
   align-items: center;
   width: 80%;
   box-shadow: 0 0.3em 0.5em -0.1em #013530;
+  border-radius: 15px;
   background-color: white;
 }
 
 .city img {
   min-width: 300px;
   max-width: 300px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .city-content {
@@ -32,6 +37,7 @@ main h1 {
   flex-flow: column;
   align-items: center;
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 .city-content h2 {

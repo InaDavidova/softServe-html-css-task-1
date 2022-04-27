@@ -9,7 +9,7 @@ export const citiesData = {
         country: "Spain",
         population: "1 620 000",
         information: "Barcelona is the capital and largest city of the autonomous community of Catalonia, as well as the second most populous municipality of Spain. Barcelona has a rich cultural heritage and is today an important cultural centre and a major tourist destination. Particularly renowned are the architectural works of Antoni Gaudí and Lluís Domènech i Montaner, which have been designated UNESCO World Heritage Sites. Especially remarkable is the work of architect Antoni Gaudí, which can be seen throughout the city. His best-known work is the immense but still unfinished church of the Sagrada Família, which has been under construction since 1882 and is still financed by private donations. As of 2015, completion is planned for 2026. Another masterpiece by Gaudi is the Park Guell. The park supports a wide variety of wildlife, notably several of the non-native species of parrot found in the Barcelona area. Other birds can be seen from the park, with records including short-toed eagle. The park also supports a population of hummingbird hawk moths.",
-        picUrl: "https://i.ytimg.com/vi/k6V6bSdj2VQ/maxresdefault.jpg"
+        picUrl: "https://www.flytap.com/-/media/Flytap/new-tap-pages/destinations/europe/spain/barcelona/barcelona-og-image-v2-1200x630.jpg"
     },
     chalkidiki: { 
         country: "Greece", 
