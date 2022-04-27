@@ -1,0 +1,54 @@
+main {
+  display: flex;
+  flex-flow: column;
+  row-gap: 50px;
+  align-items: center;
+  background-color: azure;
+}
+
+main h1 {
+  width: 100%;
+  text-align: center;
+  color: rgb(236, 76, 76);
+  letter-spacing: 1px;
+  text-shadow: 1px 2px rgb(167, 104, 104);
+}
+
+.city {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  box-shadow: 0 0.3em 0.5em -0.1em #013530;
+  background-color: white;
+}
+
+.city img {
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.city-content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.city-content h2 {
+  margin: 0;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: rgb(236, 76, 76);
+}
+
+.city-content button {
+  background-color: #013530;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  padding: 5px 15px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
