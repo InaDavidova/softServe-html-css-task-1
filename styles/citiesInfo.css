@@ -26,8 +26,8 @@ main h1 {
 }
 
 .city img {
-  min-width: 300px;
-  max-width: 300px;
+  min-width: 350px;
+  max-width: 350px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
@@ -36,8 +36,7 @@ main h1 {
   display: flex;
   flex-flow: column;
   align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px 5px 20px;
 }
 
 .city-content h2 {
@@ -58,3 +57,10 @@ main h1 {
   font-weight: 600;
   letter-spacing: 1px;
 }
+
+.city-content button:hover {
+  cursor: pointer;
+  transform: translateY(-0.1em);
+  box-shadow: 0 0.3em 0.5em -0.1em #013530;
+  transition: all 0.3s ease;
+  }
