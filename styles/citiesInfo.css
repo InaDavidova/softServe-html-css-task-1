@@ -63,4 +63,21 @@ main h1 {
   transform: translateY(-0.1em);
   box-shadow: 0 0.3em 0.5em -0.1em #013530;
   transition: all 0.3s ease;
-  }
+}
+
+.dark div{
+  background-color: #1e6e66;
+}
+
+.dark p {
+  color: azure;
+}
+
+.dark h2{
+  color: rgb(236, 76, 76);
+  text-shadow: 1px 1px rgb(240, 163, 163);
+}
+
+.dark button {
+  background-color: rgb(236, 76, 76);
+}
