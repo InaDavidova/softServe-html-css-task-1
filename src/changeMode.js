@@ -7,6 +7,7 @@ if (localStorage.getItem("dark") == "true") {
   $("label").addClass("dark-p");
   $(".folder").addClass("dark-folder");
   $("#slideshowDiv").addClass("dark-slideshowDiv");
+  $(".next-destination").addClass("dark-vote");
 }
 
 $(document).ready(function () {
@@ -20,6 +21,7 @@ $(document).ready(function () {
       $("label").removeClass("dark-p");
       $(".folder").removeClass("dark-folder");
       $("#slideshowDiv").removeClass("dark-slideshowDiv");
+      $(".next-destination").removeClass("dark-vote");
 
       localStorage.setItem("dark", "false");
 
@@ -31,6 +33,7 @@ $(document).ready(function () {
       $("label").addClass("dark-p");
       $(".folder").addClass("dark-folder");
       $("#slideshowDiv").addClass("dark-slideshowDiv");
+      $(".next-destination").addClass("dark-vote");
 
       localStorage.setItem("dark", "true");
     }

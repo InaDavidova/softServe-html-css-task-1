@@ -7,7 +7,7 @@ $(document).ready(function () {
         };
 
         localStorage.setItem("votes", JSON.stringify(votes));
-        
+
     } else {
         let votes = JSON.parse(localStorage.getItem("votes"));
 
@@ -21,11 +21,11 @@ $(document).ready(function () {
 
         if (element.tagName == "I") {
             let votes = JSON.parse(localStorage.getItem("votes"));
-            let city = element.parentElement.parentElement.id;
+            let city = element.parentElement.id;
 
             votes[city]++;
 
-            element.parentElement.previousElementSibling.textContent = votes[city];
+            element.previousElementSibling.textContent = votes[city];
 
             localStorage.setItem("votes", JSON.stringify(votes));
         }

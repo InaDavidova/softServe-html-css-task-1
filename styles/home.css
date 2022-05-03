@@ -78,15 +78,23 @@ img {
   padding: 15px 15px 50px 15px;
 }
 
-.next-destination {
-  width: 30%;
-}
 
 .next-destination {
+  width: 30%;
   text-align: center;
+  letter-spacing: 1px;
   background-color: white;
   box-shadow: 0 0.3em 0.5em -0.1em #013530;
   border-radius: 15px;
+}
+
+.next-destination h3{
+  color: #013530;
+}
+
+.next-destination span{
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .next-destination img {
@@ -102,16 +110,16 @@ img {
 .next-destination i {
   color: rgb(194, 11, 11);
   font-size: x-large;
+  margin-left: 10px;
 }
 
-.next-destination button {
-  padding: none;
-  border: none;
-  background-color: inherit;
-}
-
-.next-destination button:hover {
+.next-destination i:hover {
   cursor: pointer;
   transform: translate(1px, -3px);
   transition: all 0.5s ease;
+}
+
+.dark-vote {
+  background-color: #013530;
+  color: azure;
 }
